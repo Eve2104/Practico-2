@@ -4,9 +4,55 @@ body {
         'Arial Narrow',
         Arial,
         sans-serif;
+        text-align: center;
 }
 
 h1 {
     color: #FCEA3E;
     text-align: center;
 }
+
+img {
+    border-width: 6px;
+    border-style: solid;
+    border-color: white;
+    margin: 0px;
+    display: inline-block;
+}
+.img-barcelona {
+    width: 208px;
+    margin:0;
+}
+.img-buenos-aires {
+    width: 205px;
+}
+
+.img-madrid {
+    width: 245px;
+}
+
+.img-miami {
+    width: 206px;
+}
+
+.img-paris {
+    width: 175px;
+}
+
+.img-pipa {
+    width: 103px;
+}
+
+.img-rio-de-janeiro {
+    width: 274px;
+}
+.img-roma {
+    width: 183px;
+}
+.img-rosario {
+    width: 205px;
+}
+.img-tokio {
+    width: 205px;
+}
+
