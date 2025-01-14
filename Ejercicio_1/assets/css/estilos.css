@@ -1,23 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #2d3842 ;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     color: #fff;
+    padding: 1em;
 }
 h1 {
     text-align: center;
     margin-top: 29px;
+    margin-bottom: 29px;
     font-size: 67px;
     color: #637d96;
     background-color: #fff;
     font-family: Impact, Charcoal, sans-serif;
 }
+
+h2 {
+    margin-top: 0.5em;
+}
+
 p {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; 
     font-size: 13.6px;
     color: #abb2b9;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }	
+
+img {
+    margin: 1em;
+    width: 100%;
+    border-style: solid;
+    border-color: #E8D5C4;
+    border-width: 3px;
+}
 
 .encabezado {
     font-size: 20px;
@@ -33,14 +54,13 @@ p {
     line-height: 1; /* Alineación con el texto restante */
     color: #E8D5C4; /* Mantiene el mismo color del texto */
 }
-.img-aspiradora {
+.img-aspiradora,
+.img-celulares,
+.img-consolas,
+.img-home-theaters,
+.img-televisores {
     width: 30%;
-    height: 70%;
-    position: relative;
-    margin-left: 3%;
-    border-width: 3px;
-    border-color:#E8D5C4;
-    border-style: solid;
+    height: auto;
 }
 .encabezado2 {
     font-size: 20px;
@@ -56,15 +76,7 @@ p {
     line-height: 1; /* Alineación con el texto restante */
     color: #addee6; /* Mantiene el mismo color del texto */
 }
-.img-celulares {
-    width: 30%;
-    height: 70%;
-    position: relative;
-    margin-left: 3%;
-    border-width: 3px;
-    border-color:#addee6;
-    border-style: solid;
-}
+
 .encabezado3 {
     font-size: 20px;
     font-style: italic;
@@ -79,15 +91,7 @@ p {
     line-height: 1; /* Alineación con el texto restante */
     color: #bdc3c4 /* Mantiene el mismo color del texto */
 }
-.img-consolas {
-    width: 30%;
-    height: 70%;
-    position: relative;
-    margin-left: 3%;
-    border-width: 3px;
-    border-color:#bdc3c4;
-    border-style: solid;
-}
+
 .encabezado4 {
     font-size: 20px;
     font-style: italic;
@@ -102,15 +106,7 @@ p {
     line-height: 1; /* Alineación con el texto restante */
     color: #778a8c /* Mantiene el mismo color del texto */
 }
-.img-home-theaters {
-    width: 30%;
-    height: 70%;
-    position: relative;
-    margin-left: 3%;
-    border-width: 3px;
-    border-color:#778a8c;
-    border-style: solid;
-}
+
 .encabezado5 {
     font-size: 20px;
     font-style: italic;
@@ -125,12 +121,11 @@ p {
     line-height: 1; /* Alineación con el texto restante */
     color: #b3b7b8 /* Mantiene el mismo color del texto */
 }
-.img-televisores {
-    width: 30%;
-    height: 70%;
-    position: relative;
-    margin-left: 3%;
-    border-width: 3px;
-    border-color:#b3b7b8;
-    border-style: solid;
+
+
+@media (max-width: 768px) {
+    .img-aspiradora, .img-celulares, .img-consolas, .img-home-theaters, .img-televisores {
+        width: 90%;
+        height: auto;
+    }
 }
